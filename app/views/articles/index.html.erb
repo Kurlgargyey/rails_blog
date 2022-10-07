@@ -3,7 +3,8 @@
 <ul>
  <% @articles.each do |article| %>
   <li>
-   <%= article.title %>
+   <%= article.title %> <br>
+   <%= article.body %>
   </li>
  <% end %>
 </ul>
